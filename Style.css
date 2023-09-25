@@ -1,0 +1,498 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#container{
+    height: 1500px;
+}
+#header{
+    height: 80px;
+    background-color: rgb(12,60,96);
+    display: flex;
+}
+#logo{
+    width: 100%;
+    height: 60px;
+    padding-top: 10px;
+}
+#logotext{
+    margin-left: 50px;
+    font-family:'Times New Roman', Times, serif ;
+    font-size: 29px;
+    color: white;
+
+}
+#navbar{
+    width: 5000px;
+    margin-left: 600px;
+    margin-top: 20px;
+}
+#nav li{
+    display: inline;
+    margin-left: 80px;
+    font-size: 16px;
+}
+#nav li a{
+text-decoration: none;
+color: white;
+}
+#nav li a:hover{
+text-decoration: underline;
+color: rgb(147, 163, 193);
+}
+#banner{
+    /* background-color: brown; */
+    height: 700px;
+    width: 2000px;
+    overflow: hidden;
+}
+#banner_img{
+    z-index: -1;
+    width: 1900px;
+    margin-left: 30px;
+}
+#banner_content{
+    background-color: rgba(192, 200, 209, 0.5);
+    height: 450px;
+    width: 2000px;
+    display: flex;
+    align-items: center;
+}
+#banner_content_firstdiv{
+    background-color: white;
+    width: 700px;
+    height: 400px;
+margin-left: 650px;
+}
+#banner_content_firstdiv_heading2{
+    font-size: 50px;
+}
+#banner_content_firstdiv_button{
+    width: 200px;
+    height: 50px;
+    font-size: 15px;
+    color: rgb(83, 83, 171);
+    border: 2px solid rgb(97, 97, 167);
+}
+#banner_content_firstdiv_button:hover{
+    background-color: rgb(93, 93, 162);
+    color: white;
+    border: 2px solid white;
+}
+#profiles{
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#profiles_div1,#profiles_div2,#profiles_div3{
+    width:400px;
+    height:500px ;
+    background-color:rgb(255, 255, 255);
+}
+#profiles_div1_Heading{
+    font-size: 30px;
+    margin-left: 120px;
+}
+#profiles_div1_button{
+    width: 150px;
+    height: 50px;
+    border: 2px solid rgb(161, 161, 213);
+    color: rgb(163, 163, 189);
+}
+#profiles_div1_button:hover{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(145, 145, 199);
+    border: 2px solid rgb(255,255,255);
+    color: rgb(255,255,255);
+}
+#aboutus{
+    height: 700px;
+    background-color: aqua;
+    background-image: url(banner.jpg);
+    background-color: rgba(0,0,0,0.9);
+    overflow: hidden;
+}
+#aboutus_div{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(145, 145, 199,0.8);
+}
+#aboutus_div_headerdiv{
+    padding-top: 40px;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#aboutus_div_paragraph1{
+    width: 70%;   
+    font-size: 20px;
+}
+#aboutus_div_button{
+    width: 150px;
+    height: 50px;
+    border: 2px solid rgb(129, 129, 163);
+    color: rgb(137, 137, 190);
+}
+#aboutus_div_button:hover{
+    background-color: rgb(145, 145, 199);
+    border: 2px solid rgb(255,255,255);
+    color: rgb(255,255,255);
+}
+#clients{
+    height: 700px;
+}
+#clients_heading{
+    padding-top: 50px;
+    font-size: 40px;
+}
+#clients-innerdiv{
+    width: 95%;
+    height: 400px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#clients_innerdivs{
+    width: 200px;
+    height: 200px;
+}
+#testimonials{
+    margin-top: -150px;
+    height: 500px;
+    background-color: rgb(230, 239, 247);
+}
+#testimonials_header{
+    font-size: 40px;
+
+}
+#testimonials_paragraph{
+    width: 500px;
+    margin-top: 100px;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#testimonials_footer{
+    font-size: 20px;
+    color: rgb(71, 71, 126);
+}
+#contact{
+    background-color: rgb(12, 60,96);
+    height: 600px;
+}
+#contact_header{
+    padding-top: 100px;
+    font-size: 40px;
+    color: white;
+}
+#contact_firstname{
+    color: white;
+}
+#contact_lastname{
+    color: white;
+    margin-left: 700px;
+}
+#input_contact2{
+    margin-left: 70px;
+    width: 400px;
+    border: 0px;
+    background-color: rgb(12, 60,96) ;
+    border-bottom: 2px solid white;
+}
+#input_contact2:hover{
+    margin-left: 70px;
+    width: 400px;
+    border: 2px solid white;
+    height: 40px;
+    background-color: rgb(12, 60,96) ;
+    border-bottom: 2px solid white;
+}
+#input_contact1{
+    /* margin-left: 400px; */
+    width: 400px;
+    border: 0px;
+    background-color: rgb(12, 60,96) ;
+    border-bottom: 2px solid white;
+}
+#input_contact1:hover{
+    margin-left: 70px;
+    width: 400px;
+    border: 2px solid white;
+    height: 40px;
+    background-color: rgb(12, 60,96) ;
+    border-bottom: 2px solid white;
+}
+#contact_button{
+    width: 150px;
+    height: 50px;
+    border: 2px solid rgb(129, 129, 163);
+    color: rgb(137, 137, 190);
+}
+#contact_button:hover{
+    background-color: rgb(145, 145, 199);
+    border: 2px solid rgb(255,255,255);
+    color: rgb(255,255,255);
+}
+/* ========================================================================================================================================= */
+
+@media screen and (min-width:360px) and (max-width:540px)
+{
+
+    *{
+    margin: 0px;
+    padding: 0px;
+}
+#container{
+    height: 1500px;
+}
+#header{
+    height: 80px;
+    width: 1300px;
+    background-color: rgb(12,60,96);
+    display: flex;
+}
+#logo{
+    width: 100%;
+    height: 60px;
+    padding-top: 10px;
+}
+#logotext{
+    margin-left: 50px;
+    font-family:'Times New Roman', Times, serif ;
+    font-size: 29px;
+    color: white;
+
+}
+#navbar{
+    width: 5000px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+#nav li{
+    display: inline;
+    margin-left: 30px;
+    font-size: 30px;
+}
+#nav li a{
+text-decoration: none;
+color: white;
+}
+#nav li a:hover{
+text-decoration: underline;
+color: rgb(147, 163, 193);
+}
+#banner{
+    /* background-color: brown; */
+    height: 700px;
+    width: 1300px;
+    overflow: hidden;
+}
+#banner_img{
+    margin-left: 0px;
+    z-index: -1;
+}
+#banner_content{
+    background-color: rgba(192, 200, 209, 0.5);
+    height: 450px;
+    width: 1300px;
+    display: flex;
+    align-items: center;
+}
+#banner_content_firstdiv{
+    background-color: white;
+    width: 700px;
+    height: 400px;
+margin-left: 300px;
+}
+#banner_content_firstdiv_heading2{
+    font-size: 50px;
+}
+#banner_content_firstdiv_button{
+    width: 300px;
+    height: 60px;
+    font-size: 25px;
+    color: rgb(83, 83, 171);
+    border: 2px solid rgb(97, 97, 167);
+}
+#banner_content_firstdiv_button:hover{
+    background-color: rgb(93, 93, 162);
+    color: white;
+    border: 2px solid white;
+}
+#profiles{
+    height: 600px;
+    width: 1300px;
+    margin-top: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#profiles_div1_p{
+    font-size: 35px;
+}
+#profiles_div1,#profiles_div2,#profiles_div3{
+    width:900px;
+    height:800px ;
+    background-color:rgb(255, 255, 255);
+}
+#profiles_div1_Heading{
+    font-size:60px;
+    margin-left: 300px;
+}
+#profiles_div1_button{
+    width: 150px;
+    height: 60px;
+    font-size: 25px;
+    border: 2px solid rgb(161, 161, 213);
+    color: rgb(163, 163, 189);
+}
+#profiles_div1_button:hover{
+    width: 150px;
+    height: 60px;
+    background-color: rgb(145, 145, 199);
+    border: 2px solid rgb(255,255,255);
+    color: rgb(255,255,255);
+}
+#aboutus{
+    height: 1100px;
+    width: 1300px;
+    margin-top: 900px;
+    background-color: aqua;
+    background-image: url(banner.jpg);
+    background-color: rgba(0,0,0,0.9);
+    overflow: hidden;
+}
+#aboutus_div{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(145, 145, 199,0.8);
+}
+#aboutus_div_headerdiv{
+    padding-top: 40px;
+    font-size: 90px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#aboutus_div_paragraph1{
+    width: 97%;   
+    font-size: 36px;
+}
+#aboutus_div_button{
+    width: 250px;
+    height: 60px;
+    font-size: 25px;
+    border: 2px solid rgb(129, 129, 163);
+    color: rgb(137, 137, 190);
+}
+#aboutus_div_button:hover{
+    background-color: rgb(145, 145, 199);
+    border: 2px solid rgb(255,255,255);
+    color: rgb(255,255,255);
+}
+#clients{
+    height: 700px;
+    width: 1300px;
+}
+#clients_heading{
+    padding-top: 50px;
+    font-size: 80px;
+}
+#clients-innerdiv{
+    width: 95%;
+    height: 400px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#clients_innerdivs{
+    width: 300px;
+    height: 300px;
+}
+#clients_innerdivs img{
+    width: 300px;
+    height: 300px;
+}
+#testimonials{
+    width: 1300px;
+    margin-top: 0px;
+    height: 800px;
+    background-color: rgb(230, 239, 247);
+}
+#testimonials_header{
+    font-size: 80px;
+
+}
+#testimonials_paragraph{
+    width: 1100px;
+    margin-top: 100px;
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#testimonials_footer{
+    font-size: 40px;
+    color: rgb(71, 71, 126);
+}
+#contact{
+    background-color: rgb(12, 60,96);
+    height: 800px;
+    width: 1300px;
+}
+#contact_header{
+    padding-top: 100px;
+    font-size: 80px;
+    color: white;
+}
+#contact_firstname{
+    color: white;
+    font-size: 35px;
+}
+#contact_lastname{
+    color: white;
+    margin-left: 600px;
+    font-size: 35px;
+}
+#input_contact2{
+    margin-left: 70px;
+    width: 400px;
+    border: 0px;
+    background-color: rgb(12, 60,96) ;
+    border-bottom: 2px solid white;
+}
+#input_contact2:hover{
+    margin-left: 70px;
+    width: 400px;
+    border: 2px solid white;
+    height: 40px;
+    background-color: rgb(12, 60,96) ;
+    border-bottom: 2px solid white;
+}
+#input_contact1{
+    /* margin-left: 400px; */
+    width: 400px;
+    border: 0px;
+    background-color: rgb(12, 60,96) ;
+    border-bottom: 2px solid white;
+}
+#input_contact1:hover{
+    margin-left: 70px;
+    width: 400px;
+    border: 2px solid white;
+    height: 40px;
+    background-color: rgb(12, 60,96) ;
+    border-bottom: 2px solid white;
+}
+#contact_button{
+    width: 250px;
+    height: 60px;
+    font-size: 25px;
+    border: 2px solid rgb(129, 129, 163);
+    color: rgb(137, 137, 190);
+}
+#contact_button:hover{
+    background-color: rgb(145, 145, 199);
+    border: 2px solid rgb(255,255,255);
+    color: rgb(255,255,255);
+}
+}
